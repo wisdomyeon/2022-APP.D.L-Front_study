@@ -44,6 +44,10 @@
     padding-top: 10px;
     font-size: large;
 }
+#body{
+    height: 100%;
+    width: auto;
+}
 .my img{
     width: 250px;
     float: left;
@@ -65,4 +69,21 @@
     font-weight: bold;
     margin-left:15px;
     padding-top: 10px;
+}
+#wrap{
+    display: flex;
+    table-layout: fixed;
+}
+#section{
+    width: 50%;
+    background-color: rgb(249, 215, 172);
+}
+#aside{
+    width: 50%;
+    float: right;
+    box-shadow: italic;
+    background-color: rgb(206, 171, 238);
+}
+#aside > p {
+    border: 2px solid black;
 }
